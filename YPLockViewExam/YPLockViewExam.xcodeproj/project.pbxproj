@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E8CDCBA1B9DC02900E80B50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CDCB91B9DC02900E80B50 /* main.m */; };
+		4E8CDCBD1B9DC02900E80B50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CDCBC1B9DC02900E80B50 /* AppDelegate.m */; };
+		4E8CDCC01B9DC02900E80B50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CDCBF1B9DC02900E80B50 /* ViewController.m */; };
+		4E8CDCC31B9DC02900E80B50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8CDCC11B9DC02900E80B50 /* Main.storyboard */; };
+		4E8CDCC51B9DC02900E80B50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8CDCC41B9DC02900E80B50 /* Images.xcassets */; };
+		4E8CDCC81B9DC02900E80B50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E8CDCC61B9DC02900E80B50 /* LaunchScreen.xib */; };
+		4E8CDCD41B9DC02900E80B50 /* YPLockViewExamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CDCD31B9DC02900E80B50 /* YPLockViewExamTests.m */; };
+		4E8CDCE31B9DC06700E80B50 /* YPLockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CDCDF1B9DC06700E80B50 /* YPLockButton.m */; };
+		4E8CDCE41B9DC06700E80B50 /* YPLockView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4E8CDCE01B9DC06700E80B50 /* YPLockView.bundle */; };
+		4E8CDCE51B9DC06700E80B50 /* YPLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CDCE21B9DC06700E80B50 /* YPLockView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E8CDCCE1B9DC02900E80B50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8CDCAC1B9DC02900E80B50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E8CDCB31B9DC02900E80B50;
+			remoteInfo = YPLockViewExam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E8CDCB41B9DC02900E80B50 /* YPLockViewExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPLockViewExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8CDCB81B9DC02900E80B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E8CDCB91B9DC02900E80B50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E8CDCBB1B9DC02900E80B50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E8CDCBC1B9DC02900E80B50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E8CDCBE1B9DC02900E80B50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E8CDCBF1B9DC02900E80B50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E8CDCC21B9DC02900E80B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E8CDCC41B9DC02900E80B50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4E8CDCC71B9DC02900E80B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4E8CDCCD1B9DC02900E80B50 /* YPLockViewExamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPLockViewExamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8CDCD21B9DC02900E80B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E8CDCD31B9DC02900E80B50 /* YPLockViewExamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPLockViewExamTests.m; sourceTree = "<group>"; };
+		4E8CDCDE1B9DC06700E80B50 /* YPLockButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPLockButton.h; sourceTree = "<group>"; };
+		4E8CDCDF1B9DC06700E80B50 /* YPLockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPLockButton.m; sourceTree = "<group>"; };
+		4E8CDCE01B9DC06700E80B50 /* YPLockView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YPLockView.bundle; sourceTree = "<group>"; };
+		4E8CDCE11B9DC06700E80B50 /* YPLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPLockView.h; sourceTree = "<group>"; };
+		4E8CDCE21B9DC06700E80B50 /* YPLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPLockView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E8CDCB11B9DC02900E80B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8CDCCA1B9DC02900E80B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E8CDCAB1B9DC02900E80B50 = {
+			isa = PBXGroup;
+			children = (
+				4E8CDCB61B9DC02900E80B50 /* YPLockViewExam */,
+				4E8CDCD01B9DC02900E80B50 /* YPLockViewExamTests */,
+				4E8CDCB51B9DC02900E80B50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E8CDCB51B9DC02900E80B50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E8CDCB41B9DC02900E80B50 /* YPLockViewExam.app */,
+				4E8CDCCD1B9DC02900E80B50 /* YPLockViewExamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E8CDCB61B9DC02900E80B50 /* YPLockViewExam */ = {
+			isa = PBXGroup;
+			children = (
+				4E8CDCDD1B9DC06700E80B50 /* YPLockView */,
+				4E8CDCBB1B9DC02900E80B50 /* AppDelegate.h */,
+				4E8CDCBC1B9DC02900E80B50 /* AppDelegate.m */,
+				4E8CDCBE1B9DC02900E80B50 /* ViewController.h */,
+				4E8CDCBF1B9DC02900E80B50 /* ViewController.m */,
+				4E8CDCC11B9DC02900E80B50 /* Main.storyboard */,
+				4E8CDCC41B9DC02900E80B50 /* Images.xcassets */,
+				4E8CDCC61B9DC02900E80B50 /* LaunchScreen.xib */,
+				4E8CDCB71B9DC02900E80B50 /* Supporting Files */,
+			);
+			path = YPLockViewExam;
+			sourceTree = "<group>";
+		};
+		4E8CDCB71B9DC02900E80B50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E8CDCB81B9DC02900E80B50 /* Info.plist */,
+				4E8CDCB91B9DC02900E80B50 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E8CDCD01B9DC02900E80B50 /* YPLockViewExamTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E8CDCD31B9DC02900E80B50 /* YPLockViewExamTests.m */,
+				4E8CDCD11B9DC02900E80B50 /* Supporting Files */,
+			);
+			path = YPLockViewExamTests;
+			sourceTree = "<group>";
+		};
+		4E8CDCD11B9DC02900E80B50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E8CDCD21B9DC02900E80B50 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E8CDCDD1B9DC06700E80B50 /* YPLockView */ = {
+			isa = PBXGroup;
+			children = (
+				4E8CDCE01B9DC06700E80B50 /* YPLockView.bundle */,
+				4E8CDCDE1B9DC06700E80B50 /* YPLockButton.h */,
+				4E8CDCDF1B9DC06700E80B50 /* YPLockButton.m */,
+				4E8CDCE11B9DC06700E80B50 /* YPLockView.h */,
+				4E8CDCE21B9DC06700E80B50 /* YPLockView.m */,
+			);
+			path = YPLockView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E8CDCB31B9DC02900E80B50 /* YPLockViewExam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8CDCD71B9DC02900E80B50 /* Build configuration list for PBXNativeTarget "YPLockViewExam" */;
+			buildPhases = (
+				4E8CDCB01B9DC02900E80B50 /* Sources */,
+				4E8CDCB11B9DC02900E80B50 /* Frameworks */,
+				4E8CDCB21B9DC02900E80B50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YPLockViewExam;
+			productName = YPLockViewExam;
+			productReference = 4E8CDCB41B9DC02900E80B50 /* YPLockViewExam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E8CDCCC1B9DC02900E80B50 /* YPLockViewExamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8CDCDA1B9DC02900E80B50 /* Build configuration list for PBXNativeTarget "YPLockViewExamTests" */;
+			buildPhases = (
+				4E8CDCC91B9DC02900E80B50 /* Sources */,
+				4E8CDCCA1B9DC02900E80B50 /* Frameworks */,
+				4E8CDCCB1B9DC02900E80B50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E8CDCCF1B9DC02900E80B50 /* PBXTargetDependency */,
+			);
+			name = YPLockViewExamTests;
+			productName = YPLockViewExamTests;
+			productReference = 4E8CDCCD1B9DC02900E80B50 /* YPLockViewExamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E8CDCAC1B9DC02900E80B50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = MichaelPPP;
+				TargetAttributes = {
+					4E8CDCB31B9DC02900E80B50 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4E8CDCCC1B9DC02900E80B50 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4E8CDCB31B9DC02900E80B50;
+					};
+				};
+			};
+			buildConfigurationList = 4E8CDCAF1B9DC02900E80B50 /* Build configuration list for PBXProject "YPLockViewExam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E8CDCAB1B9DC02900E80B50;
+			productRefGroup = 4E8CDCB51B9DC02900E80B50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E8CDCB31B9DC02900E80B50 /* YPLockViewExam */,
+				4E8CDCCC1B9DC02900E80B50 /* YPLockViewExamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E8CDCB21B9DC02900E80B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8CDCC31B9DC02900E80B50 /* Main.storyboard in Resources */,
+				4E8CDCC81B9DC02900E80B50 /* LaunchScreen.xib in Resources */,
+				4E8CDCE41B9DC06700E80B50 /* YPLockView.bundle in Resources */,
+				4E8CDCC51B9DC02900E80B50 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8CDCCB1B9DC02900E80B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E8CDCB01B9DC02900E80B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8CDCE51B9DC06700E80B50 /* YPLockView.m in Sources */,
+				4E8CDCC01B9DC02900E80B50 /* ViewController.m in Sources */,
+				4E8CDCBD1B9DC02900E80B50 /* AppDelegate.m in Sources */,
+				4E8CDCBA1B9DC02900E80B50 /* main.m in Sources */,
+				4E8CDCE31B9DC06700E80B50 /* YPLockButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8CDCC91B9DC02900E80B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8CDCD41B9DC02900E80B50 /* YPLockViewExamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E8CDCCF1B9DC02900E80B50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E8CDCB31B9DC02900E80B50 /* YPLockViewExam */;
+			targetProxy = 4E8CDCCE1B9DC02900E80B50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E8CDCC11B9DC02900E80B50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E8CDCC21B9DC02900E80B50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E8CDCC61B9DC02900E80B50 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E8CDCC71B9DC02900E80B50 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E8CDCD51B9DC02900E80B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E8CDCD61B9DC02900E80B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E8CDCD81B9DC02900E80B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YPLockViewExam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E8CDCD91B9DC02900E80B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YPLockViewExam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4E8CDCDB1B9DC02900E80B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YPLockViewExamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YPLockViewExam.app/YPLockViewExam";
+			};
+			name = Debug;
+		};
+		4E8CDCDC1B9DC02900E80B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YPLockViewExamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YPLockViewExam.app/YPLockViewExam";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E8CDCAF1B9DC02900E80B50 /* Build configuration list for PBXProject "YPLockViewExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8CDCD51B9DC02900E80B50 /* Debug */,
+				4E8CDCD61B9DC02900E80B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E8CDCD71B9DC02900E80B50 /* Build configuration list for PBXNativeTarget "YPLockViewExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8CDCD81B9DC02900E80B50 /* Debug */,
+				4E8CDCD91B9DC02900E80B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E8CDCDA1B9DC02900E80B50 /* Build configuration list for PBXNativeTarget "YPLockViewExamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8CDCDB1B9DC02900E80B50 /* Debug */,
+				4E8CDCDC1B9DC02900E80B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E8CDCAC1B9DC02900E80B50 /* Project object */;
+}
